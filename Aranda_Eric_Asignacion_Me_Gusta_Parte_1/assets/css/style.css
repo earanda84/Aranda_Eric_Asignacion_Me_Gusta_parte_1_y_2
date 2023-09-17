@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    justify-content: center;
+    margin: 0 auto;
+    display: flex;
+    flex: 1;
+}
+
+.card {
+    border: solid;
+    padding: 25px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    flex: 0.5;
+    gap: 10px;
+}
+
+.card > :nth-child(1){
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;
+}
+
+.card > :nth-child(1) p{
+    margin-left: calc(50px);
+    font-size: 20px;
+}
+
+.card > :nth-child(1) button{
+    padding: 5px 12px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
+    border: solid;
+    background-color: rgb(241, 204, 40);
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+}
+.card > :nth-child(2){
+    padding: 25px 0;
+    font-weight: 600;
+}
+
+
+
+
